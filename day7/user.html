@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+   background-color: lightblue;
+    font-family:Arial, sans-serif;
+}
+
+.outer{
+    width:600px;
+    height:600px;
+    background:aquamarine;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius: 10px;
+}
+
+.inner{
+    width:320px;
+    background:white;
+    border-radius:10px;
+    text-align:center;
+    padding:25px;
+    box-shadow:0 5px 15px rgba(0,0,0,.2);
+}
+
+.inner img{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    margin-bottom:15px;
+
+}
+
+.inner h2{
+    margin-bottom:8px;
+}
+
+.inner p{
+    color:gray;
+    margin-bottom:8px;
+}
+
+button{
+    padding:10px 20px;
+    margin:10px 5px;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.follow{
+    background:#3b82f6;
+    color:white;
+}
+
+.message{
+    background:white;
+    color:#3b82f6;
+    border:1px solid #3b82f6;
+}
+  
+
+</style>
+<body>
+
+<div class="outer">
+
+    <div class="inner">
+
+        <img src="./user.png" alt="Profile">
+
+        <h2>Your Name</h2>
+
+        <p>Web Developer</p>
+
+        <p>Location, City, Country</p>
+
+        <button class="follow">Follow</button>
+        <button class="message">Message</button>
+
+    </div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        border: 2px solid brown;
+        padding: 20px;
+        width: 300px;
+        border-radius: 10px;
+        background-color: lightpink;
+      }
+      .dropdown {
+        border: 1px solid green;
+        width: 120px;
+        padding: 15px;
+        background-color: aliceblue;
+        display: none;
+        border-radius: 20px;
+      }
+      .dropdown a {
+        display: block;
+        text-decoration: none;
+        color: blue;
+        border-bottom: 1px solid;
+      }
+      .dropdown a:hover {
+        color: red;
+      }
+      .container:hover .dropdown{
+        display: block;
+      }
+      .container button{
+        border-radius: 15px;
+        padding: 15px;
+
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <button>products</button>
+      <div class="dropdown">
+        <a href="">laptop</a>
+        <a href="">mouse</a>
+        <a href="">keyboard</a>
+        <a href="">shoes</a>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link  rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+</head>
+<style>
+    *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.container{
+    background:#c6bebe;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    /* height:100vh; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding-top:20px ;
+   
+}
+
+.card{
+    width:380px;
+    background:white;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 4px 12px rgba(0,0,0,.2);
+    
+}
+
+.image-box{
+    position:relative;
+}
+
+.image-box img{
+    width:100%;
+    height:220px;
+    display:block;
+}
+
+.offer{
+    position:absolute;
+    top:15px;
+    left:15px;
+    background:#53c46a;
+    color:white;
+    padding:8px 15px;
+    border-radius:8px;
+    font-weight:bold;
+    transition:0.3s;
+    cursor:pointer;
+}
+.offer:hover{
+     transform:scale(1.1);     /* bulging */
+    background:#ff4d4d;
+    color:white;
+}
+.content{
+    padding:20px;
+}
+
+.title{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.title h2{
+    font-size:35px;
+}
+
+.title span{
+    color:green;
+    font-size:24px;
+    font-weight:bold;
+}
+
+.content p{
+    margin:15px 0;
+    color:gray;
+    font-size:22px;
+}
+
+.details{
+    display:flex;
+    justify-content:space-between;
+    color:gray;
+    margin-bottom:20px;
+    font-size:18px;
+}
+
+button{
+    width:100%;
+    padding:15px;
+    background:white;
+    border:2px solid #53c46a;
+    color:#53c46a;
+    font-size:22px;
+    font-weight:bold;
+    border-radius:10px;
+    cursor:pointer;
+}
+button:hover{
+    background:#53c46a;
+    color:white;
+}
+
+nav{
+    background-color:#8a7d7d;
+    color:rgb(236, 232, 232);
+    text-align:center;
+    padding:20px;
+    font-size:25px;
+    
+}
+.an{
+    border-bottom: 4px solid orangered;
+    padding-bottom: 10px;
+    border-radius: 2px;
+
+}
+</style>
+<body>
+
+    <nav>
+        <h1>RESTUAR<span class="an">AN</span>T CARDS </h1>
+    </nav>
+    <section class="container">
+    <section class="card">
+
+    <div class="image-box">
+        <img src="./burger.png" alt="">
+        <span class="offer">30% OFF</span>
+    </div>
+
+    <div class="content">
+
+        <div class="title">
+            <h2>Burger House</h2>
+            <span><i class="fa-solid fa-star"></i> 4.3</span>
+        </div>
+
+        <p>American, Fast Food</p>
+
+        <div class="details">
+            <span><i class="fa-regular fa-clock"></i> 30-40 mins</span>
+
+            <span><i class="fa-solid fa-person-biking"></i> Free Delivery</span>
+        </div>
+
+        <button>View Menu</button>
+
+    </div>
+    
+
+</section>
+
+
+  <section class="card">
+
+    <div class="image-box">
+        <img src="./burger2.png" alt="">
+        <span class="offer">30% OFF</span>
+    </div>
+
+    <div class="content">
+
+        <div class="title">
+            <h2>Burger House</h2>
+            <span><i class="fa-solid fa-star"></i> 4.3</span>
+        </div>
+
+        <p>Italian, Fast Food</p>
+
+        <div class="details">
+            <span><i class="fa-regular fa-clock"></i> 30-40 mins</span>
+
+            <span><i class="fa-solid fa-person-biking"></i> Free Delivery</span>
+        </div>
+
+        <button>View Menu</button>
+
+    </div>
+    
+
+</section>
+
+  <section class="card">
+
+    <div class="image-box">
+        <img src="./burger3.png" alt="">
+        <span class="offer">30% OFF</span>
+    </div>
+
+    <div class="content">
+
+        <div class="title">
+            <h2>Burger House</h2>
+            <span><i class="fa-solid fa-star"></i> 4.3</span>
+        </div>
+
+        <p>Chineese, Fast Food</p>
+
+        <div class="details">
+            <span><i class="fa-regular fa-clock"></i> 30-40 mins</span>
+
+            <span><i class="fa-solid fa-person-biking"></i> Free Delivery</span>
+        </div>
+
+        <button>View Menu</button>
+
+    </div>
+    
+
+</section>
+
+  <section class="card">
+
+    <div class="image-box">
+        <img src="./burger4.png" alt="">
+        <span class="offer">30% OFF</span>
+    </div>
+
+    <div class="content">
+
+        <div class="title">
+            <h2>Burger House</h2>
+            <span><i class="fa-solid fa-star"></i> 4.3</span>
+        </div>
+
+        <p>Indian, Fast Food</p>
+
+        <div class="details">
+            <span><i class="fa-regular fa-clock"></i> 30-40 mins</span>
+
+            <span><i class="fa-solid fa-person-biking"></i> Free Delivery</span>
+        </div>
+
+        <button>View Menu</button>
+
+    </div>
+    
+
+</section>
+
+  <section class="card">
+
+    <div class="image-box">
+        <img src="./burger5.png" alt="">
+        <span class="offer">30% OFF</span>
+    </div>
+
+    <div class="content">
+
+        <div class="title">
+            <h2>Burger House</h2>
+            <span><i class="fa-solid fa-star"></i> 4.3</span>
+        </div>
+
+        <p>Spanish, Fast Food</p>
+
+        <div class="details">
+            <span><i class="fa-regular fa-clock"></i> 30-40 mins</span>
+
+            <span><i class="fa-solid fa-person-biking"></i> Free Delivery</span>
+        </div>
+
+        <button>View Menu</button>
+
+    </div>
+    
+
+</section>
+  <section class="card">
+
+    <div class="image-box">
+        <img src="./burger6.png" alt="">
+        <span class="offer">30% OFF</span>
+    </div>
+
+    <div class="content">
+
+        <div class="title">
+            <h2>Burger House</h2>
+            <span><i class="fa-solid fa-star"></i> 4.3</span>
+        </div>
+
+        <p>French, Fast Food</p>
+
+        <div class="details">
+            <span><i class="fa-regular fa-clock"></i> 30-40 mins</span>
+
+            <span><i class="fa-solid fa-person-biking"></i> Free Delivery</span>
+        </div>
+
+        <button>View Menu</button>
+
+    </div>
+    
+
+</section>
+</section>
+</body>
+</html>

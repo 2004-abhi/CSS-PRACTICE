@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    section{
+        /* border: 2px solid red; */
+        display: flex;
+        height: 90vh;
+    }
+    article{
+        border: 2px solid blue;
+        background-color: black;
+        color: white;
+        padding: 20px;
+        width: 220px;
+
+    }
+    aside{
+        /* border: 2px solid green; */
+        background-color: bisque;
+        flex-grow: 1;
+        padding: 20px;
+        font-size: 24px;
+
+
+            }
+            article a{
+                display: block;
+                color: white;
+                font-size: 20px;
+                padding-bottom: 10px;
+                /* border-radius: 2px solid red; */
+            }
+</style>
+<body>
+    <section>
+        <article>
+            <h2>Admin</h2>
+            <a href="">Home</a>
+            <a href="">student</a>
+            <a href="">reports</a>
+            <a href="">settings</a>
+
+        </article>
+
+
+        <aside>
+            <h2><u>welcome to Admin Portal</u></h2>
+            <p>use flex grow, it take all remaing space</p>
+
+        </aside>
+    </section>
+</body>
+</html>

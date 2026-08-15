@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    /* absolute fixed size */
+    div {
+      width: 300px;
+      height: 100px;
+      background-color: antiquewhite;
+    }
+    .parent {
+      width: 600px;
+      border: 2px solid red;
+    }
+    .child {
+      width: 100%;
+      height: 100%;
+      background-color: rgb(88, 192, 185);
+    }
+
+    /* em */
+
+    #parent {
+      border: 2px solid red;
+      font-size: 30px;
+    }
+    #child {
+      border: 2px solid rgb(85, 85, 144);
+      font-size: 3em;
+    }
+
+    /* rem */
+    /* 
+       *html{
+        font-size: 10px;  html default value is 16px
+
+       } */
+    p {
+      font-size: 1rem;
+    }
+
+    /* vh and vw example */
+
+    section {
+      border: 2px solid red;
+      height: 70vh;
+      width: 90vw;
+    }
+  </style>
+  <body>
+    <h4>absolute units</h4>
+    <div>hlo who are u</div>
+    <br />
+
+    <h4>relative units</h4>
+    <div class="parent">
+      <div class="child">Child</div>
+    </div>
+    <br />
+
+    <h4>relative units (em)</h4>
+    <div id="parent">
+      <div id="child">Child</div>
+    </div>
+
+    <br />
+
+    <h4>relative unit (rem)</h4>
+    <p>walking in the moonlight iam thinking off you😴</p>
+    <br />
+
+    <h4>relative unit (vh and vw)</h4>
+    <section>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem qui,
+      assumenda recusandae eligendi molestiae, quae minima ducimus voluptatum
+      eum, nobis iste officia at. Totam minima quam iusto error nam unde
+      repellat, tempora qui, eveniet, nihil aperiam assumenda blanditiis
+      excepturi quasi?
+    </section>
+  </body>
+</html>

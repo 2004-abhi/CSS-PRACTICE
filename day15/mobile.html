@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav{
+            border: 1px solid red;
+            display: flex;
+            justify-content: space-between;
+            padding: 0px 30px;
+            background-color: black;
+            color: white;
+
+        }
+        nav a{
+            color: white;
+            text-decoration: none;
+
+        }
+        /* h2{
+            border: 2px solid blue;
+        } */
+        div{
+            /* border: 2px solid orange; */
+            display: flex;
+            gap: 40px;
+            align-items: center;
+        }
+        /* mobile */
+        @media(max-width:600px)
+        {
+ 
+        nav{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+        }
+        div{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            text-align: center;
+        }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <h2>Food Hub</h2>
+        <div>
+            <a href="">home</a>
+            <a href="">items</a>
+            <a href="">oder now</a>
+            <a href="">contact</a>
+        </div>
+    </nav>
+</body>
+</html>

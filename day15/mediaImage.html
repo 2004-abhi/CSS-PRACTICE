@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .outer{
+        display: flex;
+        border: 2px solid blue;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 10px;
+        padding-right: 10px ;
+        justify-content: space-evenly;
+    }
+    .card{
+        width: 250px;
+        text-align: center;
+        border: 2pz solid red;
+        
+    }
+     .card img{
+        width: 100%;
+        height: 170px;
+
+     }
+     button{
+        padding: 10px 30px;
+        background-color: green;
+        color: white;
+        border: none;
+        margin-bottom: 10px;
+     }
+     @media(max-width:600px){
+        section{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+     }
+</style>
+<body>
+    <section class="outer">
+        <div class="card">
+            <img src="./spider.png" alt="">
+            <h2>Spider man</h2>
+            <button>view</button>
+        </div>
+        <div class="card">
+             <img src="./spider.png" alt="">
+            <h2>Spider man</h2>
+            <button>view</button>
+        </div>
+        <div class="card">
+             <img src="./spider.png" alt="">
+            <h2>Spider man</h2>
+            <button>view</button>
+        </div>
+        <div class="card">
+             <img src="./spider.png" alt="">
+            <h2>Spider man</h2>
+            <button>view</button>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,90 @@
+
+.hero{
+      width: 100%;
+      height: 614px;
+      background-image: url(./desktop-hero.jpeg);
+      background-position: 50% 40%;
+      background-size: cover;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      background-repeat: no-repeat;
+      flex-direction: column;
+
+     button{
+        height: 45px;
+        width: 140px;
+        border-radius: 30px;
+        font-weight: 500;
+        margin-top: 40px;
+        border: none;
+        background-color: white;
+        /* font-family: Arial, Helvetica, sans-serif; */
+        /* font-weight: 50px; */
+
+      }
+    }
+    .hero2{
+        font-size: 60px;
+        color: white;
+        position: relative;
+    }
+     button{
+        height: 45px;
+        width: 140px;
+        border-radius: 30px;
+
+      }
+   
+
+
+      .why{
+    padding: 60px 50px;
+    text-align: center;
+}
+
+.why > h2{
+    font-size: 40px;
+    margin-bottom: 70px;
+}
+
+.why-container{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    /* justify-content: center; */
+}
+
+.box{
+    width: 220px;
+    text-align: center;
+}
+
+.play-logo{
+    width: 130px;
+    height: 130px;
+    background-color: #1ed760;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+.play-logo img{
+    width: 150px;
+    height: 150px;
+}
+
+.box h3{
+    margin-bottom: 15px;
+}
+
+.box p{
+    line-height: 1.5;
+    color: #555;
+    /* justify-content: center; */
+    /* text-align: center; */
+    /* display: flex; */
+}
